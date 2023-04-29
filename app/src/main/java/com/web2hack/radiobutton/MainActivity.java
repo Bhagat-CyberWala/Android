@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.radioBtn4:
                         getWindow().getDecorView().setBackgroundColor(Color.parseColor("#FFFF00"));
+                        Btn1.setVisibility(View.VISIBLE);
+                        Btn2.setVisibility(View.INVISIBLE);
+                        Btn3.setVisibility(View.INVISIBLE);
+                        Btn4.setVisibility(View.VISIBLE);
                         break;
 
                 }
